@@ -1,0 +1,7 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, consolas",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Solarized Dark",
+    "breadcrumbs.enabled": true
+}

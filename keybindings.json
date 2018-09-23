@@ -1,0 +1,206 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+8",
+        "command": "-workbench.action.openEditorAtIndex8"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "workbench.action.quickInputBack",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.quickInputBack",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "cmd+.",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+.",
+        "command": "-settings.action.editFocusedSetting",
+        "when": "inSettingsSearch"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.deleteWordLeft",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "-workbench.action.terminal.deleteWordLeft",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+.",
+        "command": "editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "cmd+f12",
+        "command": "-editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "emacs.C-w",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-emacs.C-w",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "-deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+cmd+k",
+        "command": "editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "-editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "deleteRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-deleteRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "deleteRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-deleteRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "deleteWordRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+d",
+        "command": "-deleteWordRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-actions.find"
+    },
+    {
+        "key": "cmd+f",
+        "command": "emacs.cursorWordRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+f",
+        "command": "-emacs.cursorWordRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+b",
+        "command": "-emacs.cursorWordLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+w",
+        "command": "emacs.M-w",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "-emacs.M-w",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+v",
+        "command": "emacs.cursorPageUp",
+        "when": "editorTextFocus && !suggestWidgetVisible"
+    },
+    {
+        "key": "alt+v",
+        "command": "-emacs.cursorPageUp",
+        "when": "editorTextFocus && !suggestWidgetVisible"
+    },
+    {
+        "key": "shift+cmd+,",
+        "command": "emacs.cursorTop",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+,",
+        "command": "-emacs.cursorTop",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+.",
+        "command": "emacs.cursorBottom",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+.",
+        "command": "-emacs.cursorBottom",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "emacs.cursorWordLeft"
+    }
+]
